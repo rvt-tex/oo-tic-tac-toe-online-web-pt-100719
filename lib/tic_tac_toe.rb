@@ -7,7 +7,6 @@ class TicTacToe
  #assign a instance variable @board to an array of 9 blank spaces " "
   def initialize(board = nil)
     @board = board || Array.new(9, " ")
-    @play = play
   end
  
 # defines the current player
