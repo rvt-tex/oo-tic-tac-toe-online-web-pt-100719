@@ -40,6 +40,7 @@ class TicTacToe
     @board[index] = token
   end
 
+# returns true/false if position is taken   
    def position_taken?(index)
     if(@board[index] != " ")
       true
