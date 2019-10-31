@@ -35,6 +35,7 @@ class TicTacToe
     @input = @input - 1
   end
 
+#this allows players to move 
   def move(index,token = "X")
     @board[index] = token
   end
