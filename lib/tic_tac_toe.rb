@@ -185,6 +185,7 @@ class TicTacToe
   end
 end
 
+TicTacToe = TicTacToe.new(play)
 
 
 
