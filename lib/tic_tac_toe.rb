@@ -183,10 +183,6 @@ class TicTacToe
        puts "Cat's Game!"
     end
   end
-  
-  def play
-    @board = new_game
-  end 
 end
 
 
